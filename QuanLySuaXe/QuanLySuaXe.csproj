@@ -105,6 +105,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\FormNhom.resx">
+      <DependentUpon>FormNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormTho.resx">
+      <DependentUpon>FormTho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormUserLogin.resx">
       <DependentUpon>FormUserLogin.cs</DependentUpon>
     </EmbeddedResource>

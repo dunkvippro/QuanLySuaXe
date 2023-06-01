@@ -1,0 +1,13 @@
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\bin\Debug\QuanLySuaXe.exe.config
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\bin\Debug\QuanLySuaXe.exe
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\bin\Debug\QuanLySuaXe.pdb
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj.AssemblyReference.cache
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj.SuggestedBindingRedirects.cache
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.Properties.Resources.resources
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.View.FormNhom.resources
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.View.FormTho.resources
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.View.FormUserLogin.resources
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj.GenerateResource.cache
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj.CoreCompileInputs.cache
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.exe
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.pdb
