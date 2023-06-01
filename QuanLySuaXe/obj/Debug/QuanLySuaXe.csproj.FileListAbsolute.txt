@@ -11,3 +11,4 @@ C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj
 C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.csproj.CoreCompileInputs.cache
 C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.exe
 C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.pdb
+C:\Users\trant\source\repos\QuanLySuaXe\QuanLySuaXe\obj\Debug\QuanLySuaXe.View.FormKhachHang.resources

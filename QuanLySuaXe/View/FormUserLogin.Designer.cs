@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.dgvUserLogin = new System.Windows.Forms.DataGridView();
-            this.pnlUserLoginButton = new System.Windows.Forms.Panel();
+            this.pnlButton = new System.Windows.Forms.Panel();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
-            this.Thêm = new System.Windows.Forms.Button();
-            this.pnl = new System.Windows.Forms.Panel();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.pnlInput = new System.Windows.Forms.Panel();
             this.cbbChucVu = new System.Windows.Forms.ComboBox();
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.txbUserID = new System.Windows.Forms.TextBox();
@@ -46,8 +46,8 @@
             this.cbbTKChucVu = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUserLogin)).BeginInit();
-            this.pnlUserLoginButton.SuspendLayout();
-            this.pnl.SuspendLayout();
+            this.pnlButton.SuspendLayout();
+            this.pnlInput.SuspendLayout();
             this.pnlTimKiem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,16 +59,16 @@
             this.dgvUserLogin.Size = new System.Drawing.Size(577, 329);
             this.dgvUserLogin.TabIndex = 0;
             // 
-            // pnlUserLoginButton
+            // pnlButton
             // 
-            this.pnlUserLoginButton.Controls.Add(this.btnXoa);
-            this.pnlUserLoginButton.Controls.Add(this.btnLuu);
-            this.pnlUserLoginButton.Controls.Add(this.btnSua);
-            this.pnlUserLoginButton.Controls.Add(this.Thêm);
-            this.pnlUserLoginButton.Location = new System.Drawing.Point(292, 420);
-            this.pnlUserLoginButton.Name = "pnlUserLoginButton";
-            this.pnlUserLoginButton.Size = new System.Drawing.Size(512, 60);
-            this.pnlUserLoginButton.TabIndex = 1;
+            this.pnlButton.Controls.Add(this.btnXoa);
+            this.pnlButton.Controls.Add(this.btnLuu);
+            this.pnlButton.Controls.Add(this.btnSua);
+            this.pnlButton.Controls.Add(this.btnThem);
+            this.pnlButton.Location = new System.Drawing.Point(292, 420);
+            this.pnlButton.Name = "pnlButton";
+            this.pnlButton.Size = new System.Drawing.Size(512, 60);
+            this.pnlButton.TabIndex = 1;
             // 
             // btnXoa
             // 
@@ -97,27 +97,27 @@
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             // 
-            // Thêm
+            // btnThem
             // 
-            this.Thêm.Location = new System.Drawing.Point(113, 15);
-            this.Thêm.Name = "Thêm";
-            this.Thêm.Size = new System.Drawing.Size(90, 30);
-            this.Thêm.TabIndex = 0;
-            this.Thêm.Text = "Thêm";
-            this.Thêm.UseVisualStyleBackColor = true;
+            this.btnThem.Location = new System.Drawing.Point(113, 15);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(90, 30);
+            this.btnThem.TabIndex = 0;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // pnl
+            // pnlInput
             // 
-            this.pnl.Controls.Add(this.cbbChucVu);
-            this.pnl.Controls.Add(this.txbPassword);
-            this.pnl.Controls.Add(this.txbUserID);
-            this.pnl.Controls.Add(this.label3);
-            this.pnl.Controls.Add(this.label2);
-            this.pnl.Controls.Add(this.label1);
-            this.pnl.Location = new System.Drawing.Point(13, 83);
-            this.pnl.Name = "pnl";
-            this.pnl.Size = new System.Drawing.Size(208, 329);
-            this.pnl.TabIndex = 2;
+            this.pnlInput.Controls.Add(this.cbbChucVu);
+            this.pnlInput.Controls.Add(this.txbPassword);
+            this.pnlInput.Controls.Add(this.txbUserID);
+            this.pnlInput.Controls.Add(this.label3);
+            this.pnlInput.Controls.Add(this.label2);
+            this.pnlInput.Controls.Add(this.label1);
+            this.pnlInput.Location = new System.Drawing.Point(13, 83);
+            this.pnlInput.Name = "pnlInput";
+            this.pnlInput.Size = new System.Drawing.Size(208, 329);
+            this.pnlInput.TabIndex = 2;
             // 
             // cbbChucVu
             // 
@@ -210,15 +210,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(837, 492);
             this.Controls.Add(this.pnlTimKiem);
-            this.Controls.Add(this.pnl);
-            this.Controls.Add(this.pnlUserLoginButton);
+            this.Controls.Add(this.pnlInput);
+            this.Controls.Add(this.pnlButton);
             this.Controls.Add(this.dgvUserLogin);
             this.Name = "FormUserLogin";
             this.Text = "FormUserLogin";
             ((System.ComponentModel.ISupportInitialize)(this.dgvUserLogin)).EndInit();
-            this.pnlUserLoginButton.ResumeLayout(false);
-            this.pnl.ResumeLayout(false);
-            this.pnl.PerformLayout();
+            this.pnlButton.ResumeLayout(false);
+            this.pnlInput.ResumeLayout(false);
+            this.pnlInput.PerformLayout();
             this.pnlTimKiem.ResumeLayout(false);
             this.pnlTimKiem.PerformLayout();
             this.ResumeLayout(false);
@@ -228,12 +228,12 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvUserLogin;
-        private System.Windows.Forms.Panel pnlUserLoginButton;
+        private System.Windows.Forms.Panel pnlButton;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button Thêm;
-        private System.Windows.Forms.Panel pnl;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Panel pnlInput;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
