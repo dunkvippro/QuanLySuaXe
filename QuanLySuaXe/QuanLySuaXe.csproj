@@ -108,8 +108,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\FormChiTietHopDong.resx">
+      <DependentUpon>FormChiTietHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormHopDong.resx">
+      <DependentUpon>FormHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormNhom.resx">
       <DependentUpon>FormNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormPhieuThu.resx">
+      <DependentUpon>FormPhieuThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormTho.resx">
       <DependentUpon>FormTho.cs</DependentUpon>
